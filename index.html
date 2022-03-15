@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form>
+            <input type="text" class="display">
+        </form>
+
+        <div class="content-flex">
+            <div class="number-btn-grid">
+                <button class="btn" data-number="8">8</button>
+                <button class="btn" data-number="9">9</button>
+                <button class="btn" data-number="7">7</button>
+                <button class="btn" data-number="4">4</button>
+                <button class="btn" data-number="5">5</button>
+                <button class="btn" data-number="6">6</button>
+                <button class="btn" data-number="1">1</button>
+                <button class="btn" data-number="2">2</button>
+                <button class="btn" data-number="3">3</button>
+                <button class="back"><i class="fa-solid fa-delete-left"></i></button>
+                <button class="btn" data-number="0">0</button>
+                <button class="btn" data-number=".">.</button>
+            </div>
+    
+            <div class="right-btn">
+                <button type="button" class="ac">AC</button>
+                <button type="button" class="teng">=</button>
+            </div>
+        </div>
+
+        <div class="evaluate">
+            <button class="btn divide" data-number="/">÷</button>
+            <button class="btn multiple" data-number="*">x</button>
+            <button class="btn minus" data-number="-">-</button>
+            <button class="btn plus" data-number="+">+</button>
+        </div>
+
+        <div class="options-icon">
+            <i class="fa-solid fa-angle-left rotate"></i>
+        </div>
+
+        <div class="options-absolute">
+            <button class="option sin">sin</button>
+            <button class="option cos">cos</button>
+            <button class="option tang">tan</button>
+            <button class="option x ">!x</button>
+            <button class="option n">n</button>
+            <button class="option log">log</button>
+            <button class="option left-dot" value="(">(</button>
+            <button class="option right-dot" value=")">)</button>
+            <button class="option root">√</button>
+            <button class="option e">e</button>
+            <button class="option percent">%</button>
+            <button class="option yx">Yx</button>
+
+        </div>
+        
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
